@@ -1,0 +1,518 @@
+[
+  {
+    "type": "release",
+    "label": "版本发布",
+    "children": [
+      {
+        "name": "Apache_DolphinScheduler_3.1.9_version_released_improving_system_stability_and_performance",
+        "title": "Apache DolphinScheduler 3.1.9 版本发布：提升系统的稳定性和性能！",
+        "author": "Niko Zeng",
+        "dateStr": "2024-01-04",
+        "desc": "此版本在 3.1.8 的基础上进行了关键的 bug 修复和文档更新，共计修复了 14 个 bug 和改进了 3 个文档。....."
+      },
+      {
+        "name": "Apache_DolphinScheduler_releases_version_3.2.0",
+        "title": "Apache DolphinScheduler 重磅发布3.2.0版本！",
+        "author": "Niko Zeng",
+        "dateStr": "2023-10-17",
+        "desc": "首度公开！Apache DolphinScheduler 3.2.0 全新功能与优化汇总。为您带来更加完善的功能体验与系统稳定性..."
+      },
+      {
+        "name": "Apache_dolphinScheduler_3.0.0_alpha",
+        "title": "3.0.0 alpha 重磅发布！九大新功能、全新 UI 解锁调度系统新能力",
+        "author": "Debra Chen",
+        "dateStr": "2022-4-25",
+        "desc": "2022 年 4 月 22 日，Apache DolphinScheduler 正式宣布 3.0.0 alpha 版本发布！..."
+      },
+      {
+        "name": "Apache_dolphinScheduler_2.0.5",
+        "title": "Apache DolphinScheduler 2_0_5 发布，Worker 容错流程优化",
+        "author": "Debra Chen",
+        "dateStr": "2022-3-7",
+        "desc": "今天，Apache DolphinScheduler 宣布 2.0.5 版本正式发布。"
+      },
+      {
+        "name": "Apache_dolphinScheduler_2.0.3",
+        "title": "Apache DolphinScheduler 2.0.3 发布，支持钉钉告警签名校验，数据源可从多个会话获取链接",
+        "author": "Debra Chen",
+        "dateStr": "2022-1-27",
+        "desc": "Apache DolphinScheduler 董事会报告：社区健康运行，Commit 增长 123%"
+      },
+      {
+        "name": "Apache_dolphinScheduler_2.0.2",
+        "title": "WorkflowAsCode 来了，Apache DolphinScheduler 2.0.2 惊喜发布！",
+        "author": "Debra Chen",
+        "dateStr": "2022-1-13",
+        "desc": "Apache DolphinScheduler 2.0.2"
+      },
+      {
+        "name": "Apache-DolphinScheduler-2.0.1",
+        "title": "Apache DolphinScheduler 2.0.1 来了，备受期待的一键升级、插件化终于实现！",
+        "author": "Debra Chen",
+        "dateStr": "2021-12-17",
+        "desc": "Apache DolphinScheduler 2.0.1"
+      },
+      {
+        "name": "DS-2.0-alpha-release",
+        "title": "重构、插件化、性能提升 20 倍，Apache DolphinScheduler 2.0 alpha 发布亮点太多!",
+        "author": "DolphinScheduler",
+        "dateStr": "2021-10-29",
+        "desc": "DolphinScheduler 2.0 alpha发布"
+      }
+    ]
+  },
+  {
+    "type": "tech",
+    "label": "技术详解",
+    "children": [
+      {
+        "name": "How_does_Apache_Dolphinscheduler_solve_the_infinite_loop_of_Master_service_without_restarting",
+        "title": "Apache Dolphinscheduler如何不重启解决Master服务死循环",
+        "author": "Niko Zemg",
+        "dateStr": "2023-10-31",
+        "desc": "相信不少使用过3.0的用户都遇到过Master服务中存在一些工作流一直不停的死循环的问题，本人到现在也没找到触发的原因，但是通过与同事的摸索，暂时找到了一个可以借助Arthas解决死循环的方法......"
+      },
+      {
+        "name": "Big_Data_Scheduling_Best_Practices_Migrating_from_Airflow_to_Apache_DolphinScheduler",
+        "title": "大数据调度最佳实践 |  从Airflow迁移到Apache DolphinScheduler",
+        "author": "Niko Zemg",
+        "dateStr": "2023-10-25",
+        "desc": "有部分用户原来是使用 Airflow 作为调度系统的，但是由于 Airflow 只能通过代码来定义工作流，并且没有对资源、项目的粒度划分，导致在部分需要较强权限控制的场景下不能很好的贴合客户需求，所以部分用户需要将调度系统从 Airflow 迁移到 Apache Dolphinscheduler。......"
+      },
+      {
+        "name": "K8s_Cisco_Hangzhou",
+        "title": "全面拥抱 K8s，ApacheDolphinScheduler 应用与支持 K8s 任务的探索",
+        "author": "Debra Chen",
+        "dateStr": "2022-3-21",
+        "desc": "K8s 打通了主流公私云之间的壁垒，成为唯一连通公私云的基础架构平台......"
+      },
+      {
+        "name": "DolphinScheduler_Kubernetes_Technology_in_action",
+        "title": "Apache DolphinScheduler 在 Kubernetes 体系中的技术实战",
+        "author": "Debra Chen",
+        "dateStr": "2022-2-18",
+        "desc": "Apache DolphinScheduler 在 Kubernetes 体系中的技术实战"
+      },
+      {
+        "name": "DS_architecture_evolution",
+        "title": "Apache DolphinScheduler 架构演进及开源经验分享",
+        "author": "徐玮毅",
+        "dateStr": "2021-07-18",
+        "desc": "DolphinScheduler 1.2.x/1.3.x/2.0架构演进及开源经验分享（阮文俊）"
+      },
+      {
+        "name": "DS_run_in_windows",
+        "title": "DolphinScheduler在Windows环境启动源码",
+        "author": "寇文皓",
+        "dateStr": "2021-07-05",
+        "desc": "在Windows环境下启动DolphinScheduler的代码进行开发调试"
+      },
+      {
+        "name": "dolphinscheduler_json",
+        "title": "DolphinScheduler 核心之 DAG 大 JSON 拆分详解",
+        "author": "进勇",
+        "editor": "小P",
+        "dateStr": "2021-05-29",
+        "desc": "DolphinScheduler 核心之 DAG 大 JSON 拆分始末"
+      },
+      {
+        "name": "json_split",
+        "title": "为什么要把 DolphinScheduler 工作流定义中保存任务及关系的大 json 给拆了?",
+        "author": "进勇",
+        "editor": "王福政",
+        "dateStr": "2021-05-25",
+        "desc": "当前 DolphinScheduler 的工作流中的任务及关系保存时是以大 json 的方式保存到数据库中 process_definiton 表的 process_definition_json 字段，如果某个工作流很大比如有 1000 个任务，这个 json 字段也就随之变得非常大，在使用时需要解析 json，非常耗费性能，且任务没法重用，故社区计划启动 json 拆分项目。"
+      },
+      {
+        "name": "blog",
+        "title": "大数据工作流任务调度--有向无环图(DAG)之拓扑排序",
+        "author": "代立冬",
+        "translator": "王福政",
+        "dateStr": "2021-05-19",
+        "desc": "DAG：全称是Directed Acyclic Graph，简称DAG。工作流中的任务以有向无环图的形式组合，从拓扑上看，这些节点的入口度为零，直到没有后续节点为止。"
+      },
+      {
+        "name": "5rRWMoT0DLMcOdDl-mrsRQ",
+        "title": "Apache DolphinScheduler 需要的sudo，还可以这么玩，长见识了！",
+        "author": "海豚调度",
+        "dateStr": "2020-12-16",
+        "target": "_blank",
+        "desc": "这里推荐一下社区贡献者 import 的实践文章，写的非常赞，sudo 也是非常的痛点，也寻求一种更好的实现方式来实现多租户",
+        "link": "https://mp.weixin.qq.com/s/5rRWMoT0DLMcOdDl-mrsRQ"
+      },
+      {
+        "name": "Issue_documentation_and_resolution_of_the_Apache_DolphinScheduler_upgrade_from1.3.4_to_3.1.2",
+        "title": "Apache DolphinScheduler 从 1.3.4 升级至3.1.2 过程中的问题记录及解决方案",
+        "author": "刘宇星",
+        "dateStr": "2024-01-19",
+        "desc": "Apache DolphinScheduler官方的升级文档提供了升级脚本，如果只是跨小版本的更新，那么只用执行脚本就好了，但跨多个大版本升级时依然容易出现各种问题，特此总结..."
+      }
+    ]
+  },
+  {
+    "type": "trends",
+    "label": "社区动态",
+    "children": [
+      {
+        "name": "Apache_DolphinScheduler_s_Graduation_From_ASF_Incubator",
+        "title": "Apache DolphinScheduler ASF 孵化器毕业一周年，汇报来了！",
+        "author": "Debra Chen",
+        "dateStr": "2022-4-14",
+        "desc": "不知不觉，Apache DolphinScheduler 已经从......"
+      },
+      {
+        "name": "DolphinScheduler漏洞情况说明",
+        "title": "DolphinScheduler漏洞情况说明",
+        "author": "徐玮毅",
+        "dateStr": "2021-10-26",
+        "desc": "DolphinScheduler漏洞情况说明"
+      },
+      {
+        "name": "Board_of_Directors_Report",
+        "title": "Apache DolphinScheduler 董事会报告：社区健康运行，Commit 增长 123%",
+        "author": "Debra Chen",
+        "dateStr": "2022-1-13",
+        "desc": "Apache DolphinScheduler 董事会报告：社区健康运行，Commit 增长 123%"
+      },
+      {
+        "name": "Twos",
+        "title": "恭喜 Apache DolphinScheduler 入选可信开源社区共同体（TWOS）预备成员！",
+        "author": "Debra Chen",
+        "dateStr": "2022-1-11",
+        "desc": "TWOS"
+      },
+      {
+        "name": "Awarded_most_popular_project_in_2021",
+        "title": "Apache DolphinScheduler 获评 2021 年度「最受欢迎项目」",
+        "author": "Debra Chen",
+        "dateStr": "2022-1-7",
+        "desc": "最受欢迎项目奖"
+      }
+    ]
+  },
+  {
+    "type": "tutorial",
+    "label": "教程",
+    "children": [
+      {
+        "name": "Apache_DolphinScheduler_3.0.0_to_3.1.8_tutorial",
+        "title": "Apache DolphinScheduler 3.0.0 升级到 3.1.8 教程？",
+        "author": "Niko_Zeng",
+        "dateStr": "2023-11-21",
+        "desc": "安装部署的流程可参考官网的文档Version 3.1.8/部署指南/伪集群部署安装部署的流程可参考官网的文档..."
+      },
+      {
+        "name": "How_does_Apache_DolphinScheduler_completely_set_up_GMT_+8_zone",
+        "title": "Apache DolphinScheduler如何完全设置GMT+8区？",
+        "author": "Niko_Zeng",
+        "dateStr": "2023-11-9",
+        "desc": "本文将简单指导你如何快速设置时区..."
+      },
+      {
+        "name": "2_The_most_comprehensive_introductory_tutorial_written_in_a_month",
+        "title": "还不会用 Apache Dolphinscheduler？大佬用时一个月写出的最全入门教程（2）",
+        "author": "Debra Chen",
+        "dateStr": "2022-5-23",
+        "desc": "海豚调度(Apache DolphinScheduler，下文简称DS)是分布式易扩展的可视化DAG工作流任务调度系统，..."
+      },
+      {
+        "name": "The_most_comprehensive_introductory_tutorial_written_in_a_month",
+        "title": "还不会用 Apache Dolphinscheduler？大佬用时一个月写出的最全入门教程（1）",
+        "author": "Debra Chen",
+        "dateStr": "2022-5-23",
+        "desc": "海豚调度(Apache DolphinScheduler，下文简称DS)是分布式易扩展的可视化DAG工作流任务调度系统，..."
+      },
+      {
+        "name": "Fast_Task_Type_Expanding_On_Apache_DolphinScheduler_Tutorial",
+        "title": "极速开发扩充 Apache DolphinScheduler Task 类型 | 实用教程",
+        "author": "Debra Chen",
+        "dateStr": "2022-4-14",
+        "desc": "目前在大数据生态中，调度系统是不可或缺的一个重要组件......"
+      },
+      {
+        "name": "gJUsGBHuMxw79VGH2ziZtg",
+        "title": "Apache Dolphinscheduler 1.3.x 系列配置文件指南",
+        "author": "张伯毅",
+        "dateStr": "2021-01-05",
+        "desc": "本文档为dolphinscheduler配置文件指南,针对版本为 dolphinscheduler-1.3.x 版本",
+        "link": "https://mp.weixin.qq.com/s/gJUsGBHuMxw79VGH2ziZtg"
+      },
+      {
+        "name": "How_to_use_Apache_DolphinScheduler_for_targeted_alarm_plugin_development_for_enterprise_applications",
+        "title": "企业级应用如何用 Apache DolphinScheduler 有针对性地进行告警插件开发？",
+        "author": "刘宇星",
+        "dateStr": "2024-01-19",
+        "desc": "Apache DolphinScheduler的2.0.1版本加入了插件化架构改进，将任务、告警组件、数据源、资源存储、注册中心等都将被设计为扩展点，..."
+      }
+    ]
+  },
+  {
+    "type": "user",
+    "label": "用户案例",
+    "children": [
+      {
+        "name": "Solution_to_the_incompatibility_problem_between_ZooKeeper_and_CDH_in_Apache_DolphinScheduler",
+        "title": "Apache DolphinScheduler 中 ZooKeeper与CDH 不兼容问题的解决方案",
+        "author": "Niko Zeng",
+        "dateStr": "2024-02-18",
+        "desc": "看到Apache DolphinScheduler社区群有很多用户反馈和讨论这块问题，针对不兼容的问题，不仅需要自己重新编译各一个新包，而且因为默认是使用zk-3.8的配置，所以会出现不兼容问题。使用zk-3.4配置即可适配3.4.x",
+        "img": "/img/2024-02-18/1.png"
+      },
+      {
+        "name": "Qifu_Technology_The_practical_path_of_big_data_tasks_from_diagnosis_to_self-healing",
+        "title": "奇富科技：大数据任务从诊断到自愈的实践之路",
+        "author": "Niko Zeng",
+        "dateStr": "2024-01-29",
+        "desc": "我们针对海豚调度和自助查询上运行的大数据任务自研了一款大数据任务实时智能诊断引擎。其工作流异常诊断覆盖率达85%，自助查询异常诊断覆盖率达88%，根据诊断引擎的报告平均每周进行6次“尝试自愈”操作，减少了数仓同学67%的凌晨值班告警电话。",
+        "img": "/img/2024-01-29/3.png"
+      },
+      {
+        "name": "Zuoyebang’s_data_development_platform_practice_based_on_DolphinScheduler",
+        "title": "作业帮基于 DolphinScheduler 的数据开发平台实践",
+        "author": "Niko Zeng",
+        "dateStr": "2024-01-11",
+        "desc": "随着任务数量、任务类型需求不断增长，对作业帮的数据开发平台提出了更高的要求。本文主要分享作业帮将调度引擎升级到 Apache DolphinScheduler 的实践经验，以及对数据开发平台的一些思考。",
+        "img": "/img/2024-01-11/1.png"
+      },
+      {
+        "name": "Master_Quartz_Time_Management_and_Task_Scheduling_Expert_in_Java",
+        "title": "精通Quartz：Java中的时间管理与任务调度专家",
+        "author": "Niko Zeng",
+        "dateStr": "2023-12-25",
+        "desc": "Quartz的核心类和工作机制共同构成了一个高效且灵活的任务调度系统。尽管Quartz在设计上注重简洁和性能，但它的确切实现细节和架构选择显示出其在处理复杂任务调度场景中的强大能力。",
+        "img": "/img/2023-12-25/1.png"
+      },
+      {
+        "name": "Apache_DolphinScheduler_community_won_the_2023_Outstanding_Open_Source_Technology_Team_award",
+        "title": "Apache DolphinScheduler 社区荣获 2023 年度优秀开源技术团队 奖项",
+        "author": "Niko Zeng",
+        "dateStr": "2023-12-18",
+        "desc": "```Apache DolphinScheduler 社区在 OSCHINA 平台的评选中荣获了“2023 年度优秀开源技术团队”奖项...",
+        "img": "/img/2023-12-18/1.png"
+      },
+      {
+        "name": "The_practice_of_building_a_data_platform_based_on_Apache_DolphinScheduler",
+        "title": " 基于Apache DolphinScheduler构建数据平台的实践分享",
+        "author": "Niko Zeng",
+        "dateStr": "2023-12-13",
+        "desc": "本文主要分享了关于某公司基于构建数据平台的实践经验。将首先介绍DataLink大数据平台，然后讲解调度系统的升级和选型，最后分享如何基于Apache DolphinScheduler构建数据平台的，以及平台的现状和未来的规划...",
+        "img": "/img/2023-12-13/1.png"
+      },
+      {
+        "name": "Apache_DolphinScheduler's_multi-cluster_unified_construction_and_management_practice_in_the_communications_industry",
+        "title": " Apache DolphinScheduler在某通信行业的多集群统一建设与管理实践",
+        "author": "Niko Zeng",
+        "dateStr": "2023-11-17",
+        "desc": "如果每个集群都独立部署调度系统，将会有多套调度服务管理入口，这对于运维和开发者，无论维护和使用上来说都非常不便。因此，我们决定构建一个统一调度平台，集中管理多个集群的调度任务，也为我们后续深度平台集成提供契机...",
+        "img": "/img/2023-11-17/1.png"
+      },
+      {
+        "name": "Zhendao_Group_builds_an_intelligent_marketing_cloud_platform_based_on_Apache_DolphinScheduler",
+        "title": " 珍岛集团基于 Apache DolphinScheduler 打造智能营销云平台",
+        "author": "Niko Zeng",
+        "dateStr": "2023-10-24",
+        "desc": "随着业务的发展，以及数据集成平台和GMA，算法计算平台越来越多的业务需求，开源版本的DolphinScheduler已经不能完全满足需求，迫切地需要对其做一些定制化的开发...",
+        "img": "/img/2023-10-24/1.png"
+      },
+      {
+        "name": "The_implementation_practice_of_Apache_DolphinScheduler_as_a_unified_scheduling_center_in_Lenovo",
+        "title": "Apache DolphinScheduler 在联想作为统一调度中心的落地实践",
+        "author": "Niko Zeng",
+        "dateStr": "2023-10-16",
+        "desc": "在 ApacheCon Asia 2022 Meetup上，来自联想的数据架构师、Apache DolphinScheduler PMC & Committer 、Apache Local Community 北京成员 李岗 老师分享了 Apache DolphinScheduler 在联想作为统一调度中心的落地实践。...",
+        "img": "/img/2023-10-16/1.png"
+      },
+      {
+        "name": "How_does_the_national_dairy_giant_Yili_open_up_a_path_for_enterprise_digital_transformation_based_on_Apache_DolphinScheduler",
+        "title": "国民乳业巨头伊利如何基于 DolphinScheduler 开辟企业数字化转型“蹊径”？",
+        "author": "Niko Zeng",
+        "dateStr": "2023-10-11",
+        "desc": "在数据驱动转型的过程中，会存在海量的数据集成任务，整体集成架构的合理性、调度的稳定性会严重影响数据流转的效率，也会制约数据的价值挖掘，伊利基于 Apache DolphinScheduler 构建了统一的调度服务与数据集成体系，加速数据流转，助力企业数字化转型。...",
+        "img": "/img/2023-10-11/1.png"
+      },
+      {
+        "name": "Application_and_practice_of_Apache_DolphinScheduler_offline_scheduling_in_Ziroom_(real_estate_agency)_multi-business_scenario",
+        "title": "Apache DolphinScheduler 离线调度在自如多业务场景下的应用与实践？",
+        "author": "Niko Zeng",
+        "dateStr": "2023-9-19",
+        "desc": "开始引入Apache DolphinScheduler，并在此基础上进行了一系列的改造和优化，其中包括自动生成SQL血缘解析调度，支持Ambari管理Apache DolphinScheduler，详细描绘Apache DolphinScheduler在自如中的应用以及演变过程...",
+        "img": "/img/2023-9-19/1.png"
+      },
+      {
+        "name": "How_can_real_estate_companies_let_data_analysts_do_the_work_of_professional_data_warehouse_engineers",
+        "title": "数据分析师干了专业数仓工程师的活，自如是怎么做到的？",
+        "author": "Niko Zeng",
+        "dateStr": "2023-9-11",
+        "desc": "本文是自如基于Apache DolphinScheduler面向大数据构建基础平台的最佳实践...",
+        "img": "/img/2023-9-11/1.png"
+      },
+      {
+        "name": "Practical_development_and_application_of_Apache_DolphinScheduler_in_DDS",
+        "title": "小海豚“变身”全新智能调度引擎，深入浅出在DDS的实践开发应用？",
+        "author": "Niko Zeng",
+        "dateStr": "2023-9-6",
+        "desc": "本文是基于DolphinScheduler的智能调度引擎在DDS的应用，这场演讲主要会跟大家介绍宇动源-DDS（自研的图形化数据开发工作室）、大数据架构、DDS产品和使用中遇到的问题，包括在迁移过程中的调研情况、遇到的困难、解决方案以及针对需求的优化...",
+        "img": "/img/2023-9-6/1.png"
+      },
+      {
+        "name": "How_does_Apache_DolphinScheduler_solve_the_pain_points_of_Chuanzhi_Education_data_warehouse_scheduling",
+        "title": "Apache DolphinScheduler 如何解决传智教育数仓调度痛点？",
+        "author": "Niko Zeng",
+        "dateStr": "2023-9-5",
+        "desc": "本文主要介绍了传智教育数仓架构的演变和Apache DolphinScheduler在传智的实践与思考 ...",
+        "img": "/img/2023-9-5/1.png"
+      },
+      {
+        "name": "Help_the_data_pipeline_platform_in_the_automotive_industry_to_connect_data_islands_and_strengthen_data_unification",
+        "title": "助力长城汽车数据管道平台连接 “数据孤岛”，加强数据一元化，Apache DolphinScheduler 的角色定位",
+        "author": "Niko Zeng",
+        "dateStr": "2023-8-31",
+        "desc": "来自长城汽车的高级工程师工程师刘永飞分享他们基于Apache DolphinScheduler的探索和开发成果...",
+        "img": "https://fastly.jsdelivr.net/gh/filess/img0@main/2023/08/31/1693474264523-4a005ea0-9023-404c-b089-74f6fc43eca6.png"
+      },
+      {
+        "name": "Application_transformation_based_on_DolphinScheduler_in_financial_technology_data_center",
+        "title": "金融科技数据中台基于 DolphinScheduler 的应用改造",
+        "author": "Niko Zeng",
+        "dateStr": "2023-8-24",
+        "desc": "来自成方金融科技的大数据工程师冯鸣夏为大家带来 DolphinScheduler 在金融科技领域的应用实践分享...",
+        "img": "https://fastly.jsdelivr.net/gh/filess/img16@main/2023/08/24/1692847150919-97fb9072-8e2b-4016-bb9f-d089a22d2b6e.png"
+      },
+      {
+        "name": "The_operation_practice_of_smooth_transition_from_Azkaban_to_Apache_DolphinScheduler",
+        "title": "数据平台调度升级改造 | 从Azkaban 平滑过度到Apache DolphinScheduler 的操作实践",
+        "author": "Niko Zeng",
+        "dateStr": "2023-8-16",
+        "desc": "Fordeal数据平台新版系统决定基于Apache DolphinScheduler进行升级改造。那整个迁移过程中开发人员是如何让使用方平滑过渡到新系统，又做出了哪些努力呢...",
+        "img": "https://fastly.jsdelivr.net/gh/filess/img2@main/2023/08/16/1692153345322-92a7cded-4702-4e86-85a2-1b7bae3ba59c.png"
+      },
+      {
+        "name": "K8s_Integration_with_Apache_DolphinScheduler_by_Hangzhou_Cisco",
+        "title": "全面拥抱 K8s，ApacheDolphinScheduler 应用与支持 K8s 任务的探索",
+        "author": "Niko Zeng",
+        "dateStr": "2023-8-8",
+        "desc": "来自杭州思科的大数据工程师李千分享他们基于Apache DolphinScheduler对K8s的交互探索和开发成果...",
+        "img": "https://fastly.jsdelivr.net/gh/filess/img16@main/2023/08/24/1692847150919-97fb9072-8e2b-4016-bb9f-d089a22d2b6e.png"
+      },
+      {
+        "name": "The_practice_of_Apache_Dolphinscheduler_in_fresh_food_industry",
+        "title": "突破单点瓶颈、挑战海量离线任务，Apache Dolphinscheduler在生鲜电商领域的落地实践",
+        "author": "Niko Zeng",
+        "dateStr": "2023-8-1",
+        "desc": "随着食行生鲜业务发展，大量的离线同步及计算任务对数据架构的易用性与稳定性带来了挑战...",
+        "img": "https://pic2.zhimg.com/80/v2-438d2d4876f011c2e8b3812c3b5640e8_720w.png"
+      },
+      {
+        "name": "Apache_DolphinScheduler_in_XWBank",
+        "title": "金融任务实例实时、离线跑批Apache DolphinScheduler在新网银行的三大场景与五大优化",
+        "author": "Debra Chen",
+        "dateStr": "2022-5-23",
+        "desc": "在新网银行，每天都有大量的任务实例产生，其中实时任务占据多数...",
+        "img": "/img/2022-05-25/ch/1.jpg"
+      },
+      {
+        "name": "China_Unicom_revamps_Apache_DolphinScheduler",
+        "title": "中国联通改造 Apache DolphinScheduler 资源中心，实现计费环境跨集群调用与数据脚本一站式访问",
+        "author": "Debra Chen",
+        "dateStr": "2022-5-07",
+        "desc": "截止2022年，中国联通用户规模达到4.6亿，占据了全中国人口的30%，...",
+        "img": "/img/2022-05-07/ch/0.png"
+      },
+      {
+        "name": "How_Does_Live-broadcasting_Platform_Adapt_to_Apache_DolphinScheduler",
+        "title": "论语音社交视频直播平台与 Apache DolphinScheduler 的适配度有多高",
+        "author": "Debra Chen",
+        "dateStr": "2022-4-16",
+        "desc": "YY直播引入Apache DolphinScheduler的背景...",
+        "img": "/img/2022-4-11/en/1.png"
+      },
+      {
+        "name": "How_Does_Ziru_Build_A_Job_Scheduling_System_Popular_Among_Data_Analysts",
+        "title": "数据分析师干了专业数仓工程师的活，自如是怎么做到的？",
+        "author": "Debra Chen",
+        "dateStr": "2022-4-16",
+        "desc": "数据分析师作为企业数据资产的缔造者之一...",
+        "img": "/img/2022-4-6/en/1.png"
+      },
+      {
+        "name": "Hangzhou_cisco",
+        "title": "杭州思科对 Apache DolphinScheduler Alert 模块的改造",
+        "author": "Debra Chen",
+        "dateStr": "2022-3-16",
+        "desc": "杭州思科已经将 Apache DolphinScheduler 引入公司自建的大数据平台......",
+        "img": "/img/3-16/Eng/1.png"
+      },
+      {
+        "name": "How_Does_360_DIGITECH_process_10_000+_workflow_instances_per_day",
+        "title": "日均处理 10000+ 工作流实例，Apache DolphinScheduler 在 360 数科的实践",
+        "author": "Debra Chen",
+        "dateStr": "2022-3-15",
+        "desc": "从 2020 年起，360 数科全面将调度系统从 Azkaban 迁移到 Apache DolphinScheduler......",
+        "img": "/img/2022-3-11/Eng/1.jpeg"
+      },
+      {
+        "name": "Exploration_and_practice_of_Tujia_Big_Data_Platform_Based",
+        "title": "途家大数据平台基于 Apache DolphinScheduler 的探索与实践",
+        "author": "Debra Chen",
+        "dateStr": "2022-3-10",
+        "desc": "途家在 2019 年引入 Apache DolphinScheduler。",
+        "img": "/img/2022-3-9/Eng/1.jpeg"
+      },
+      {
+        "name": "Eavy_Info",
+        "title": "亿云基于 DolphinScheduler 构建资产数据管理平台服务，助力政务信息化生态建设",
+        "author": "Debra Chen",
+        "dateStr": "2021-12-30",
+        "desc": "最佳实践",
+        "img": "/img/2021-12-30.jpg"
+      },
+      {
+        "name": "Lizhi-case-study",
+        "title": "荔枝机器学习平台与大数据调度系统“双剑合璧”，打造未来数据处理新模式!",
+        "author": "Debra Chen",
+        "dateStr": "2021-11-23",
+        "desc": "Lizhi case study",
+        "img": "/img/2021-12-16.jpg"
+      },
+      {
+        "name": "ipalfish_tech_platform",
+        "title": "伴鱼数据质量平台实践",
+        "author": "伴鱼技术团队",
+        "editor": "太空人",
+        "dateStr": "2021-07-06",
+        "desc": "伴鱼基础架构数据团队在应对该类问题时推出的平台化产品 - 数据质量中心（Data Quality Center, DQC）的设计与实现",
+        "img": "/img/ipalfish_platform/Griffin-framework.png"
+      },
+      {
+        "name": "roNuuZ1AWySam5WwNQHwhg",
+        "title": "DolphinScheduler & K8s 在优路科技的实践！",
+        "author": "李文禾",
+        "dateStr": "2020-11-12",
+        "target": "_blank",
+        "desc": "本文通过介绍DolphinScheduler on Kubernetes 在优路科技的实践，阐述了DolphinScheduler如何在云原生时代，更好地助力企业实现高效的数据调度解决方案",
+        "link": "https://mp.weixin.qq.com/s/roNuuZ1AWySam5WwNQHwhg",
+        "img": "/img/2020-11-12.jpg"
+      }
+    ]
+  },
+  {
+    "type": "events",
+    "label": "海内外活动",
+    "children": [
+      {
+        "name": "Meetup_2022_02_26",
+        "title": "直播报名火热启动 | 2022 年 Apache DolphinScheduler Meetup 首秀！",
+        "author": "Debra Chen",
+        "dateStr": "2022-2-18",
+        "desc": "直播报名火热启动 | 2022 年 Apache DolphinScheduler Meetup 首秀！"
+      },
+      {
+        "name": "meetup_2019_10_26",
+        "title": "Apache Dolphin Scheduler(Incubating)将于2019.10在上海举行见面会",
+        "author": "郭炜",
+        "dateStr": "2019-9-27",
+        "desc": "Apache Dolphin Scheduler(Incubating) 将于2019年10月26日在上海组织一次会议，欢迎踊跃报名。 "
+      }
+    ]
+  }
+]
